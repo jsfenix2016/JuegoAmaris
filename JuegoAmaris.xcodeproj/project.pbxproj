@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		770D39041FE9990A0045E279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D39031FE9990A0045E279 /* AppDelegate.m */; };
-		770D39071FE9990A0045E279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D39061FE9990A0045E279 /* ViewController.m */; };
 		770D390A1FE9990A0045E279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770D39081FE9990A0045E279 /* Main.storyboard */; };
 		770D390C1FE9990A0045E279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770D390B1FE9990A0045E279 /* Assets.xcassets */; };
 		770D390F1FE9990A0045E279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770D390D1FE9990A0045E279 /* LaunchScreen.storyboard */; };
 		770D39121FE9990A0045E279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D39111FE9990A0045E279 /* main.m */; };
+		770D391B1FE9AB550045E279 /* VCListPopulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D391A1FE9AB550045E279 /* VCListPopulation.m */; };
+		770D391F1FE9B2290045E279 /* CellPopulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D391E1FE9B2290045E279 /* CellPopulation.m */; };
+		770D39241FE9C3F70045E279 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D39231FE9C3F70045E279 /* Service.m */; };
+		770D39281FE9D6F20045E279 /* ToolsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D39271FE9D6F20045E279 /* ToolsImage.m */; };
+		770D392B1FE9E5230045E279 /* VCDetailPopulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D392A1FE9E5230045E279 /* VCDetailPopulation.m */; };
+		776F19481FEAABC0003F8729 /* Orcos.m in Sources */ = {isa = PBXBuildFile; fileRef = 776F19471FEAABC0003F8729 /* Orcos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		770D38FF1FE9990A0045E279 /* JuegoAmaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoAmaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770D39021FE9990A0045E279 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		770D39031FE9990A0045E279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		770D39051FE9990A0045E279 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		770D39061FE9990A0045E279 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		770D39091FE9990A0045E279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		770D390B1FE9990A0045E279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770D390E1FE9990A0045E279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		770D39101FE9990A0045E279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770D39111FE9990A0045E279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		770D39191FE9AB550045E279 /* VCListPopulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VCListPopulation.h; path = ViewControllers/VCListPopulation.h; sourceTree = "<group>"; };
+		770D391A1FE9AB550045E279 /* VCListPopulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VCListPopulation.m; path = ViewControllers/VCListPopulation.m; sourceTree = "<group>"; };
+		770D391D1FE9B2290045E279 /* CellPopulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPopulation.h; sourceTree = "<group>"; };
+		770D391E1FE9B2290045E279 /* CellPopulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellPopulation.m; sourceTree = "<group>"; };
+		770D39221FE9C3F70045E279 /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Service.h; path = Service/Service.h; sourceTree = "<group>"; };
+		770D39231FE9C3F70045E279 /* Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Service.m; path = Service/Service.m; sourceTree = "<group>"; };
+		770D39261FE9D6F20045E279 /* ToolsImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ToolsImage.h; path = Tools/ToolsImage.h; sourceTree = "<group>"; };
+		770D39271FE9D6F20045E279 /* ToolsImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ToolsImage.m; path = Tools/ToolsImage.m; sourceTree = "<group>"; };
+		770D39291FE9E5230045E279 /* VCDetailPopulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VCDetailPopulation.h; path = ViewControllers/VCDetailPopulation.h; sourceTree = "<group>"; };
+		770D392A1FE9E5230045E279 /* VCDetailPopulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VCDetailPopulation.m; path = ViewControllers/VCDetailPopulation.m; sourceTree = "<group>"; };
+		77625DB620C561A400DD8F7B /* UITableViewController+ExtDetailPopulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+ExtDetailPopulation.h"; path = "ViewControllers/UITableViewController+ExtDetailPopulation.h"; sourceTree = "<group>"; };
+		776F19461FEAABC0003F8729 /* Orcos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Orcos.h; sourceTree = "<group>"; };
+		776F19471FEAABC0003F8729 /* Orcos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Orcos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,13 @@
 		770D39011FE9990A0045E279 /* JuegoAmaris */ = {
 			isa = PBXGroup;
 			children = (
+				770D39251FE9D6CB0045E279 /* Tools */,
+				770D39211FE9B7E80045E279 /* Model */,
+				770D39201FE9B7D80045E279 /* Service */,
+				770D391C1FE9B1FE0045E279 /* CellPopulation */,
+				770D39181FE99BAC0045E279 /* ViewControllers */,
 				770D39021FE9990A0045E279 /* AppDelegate.h */,
 				770D39031FE9990A0045E279 /* AppDelegate.m */,
-				770D39051FE9990A0045E279 /* ViewController.h */,
-				770D39061FE9990A0045E279 /* ViewController.m */,
 				770D39081FE9990A0045E279 /* Main.storyboard */,
 				770D390B1FE9990A0045E279 /* Assets.xcassets */,
 				770D390D1FE9990A0045E279 /* LaunchScreen.storyboard */,
@@ -69,6 +88,54 @@
 				770D39111FE9990A0045E279 /* main.m */,
 			);
 			path = JuegoAmaris;
+			sourceTree = "<group>";
+		};
+		770D39181FE99BAC0045E279 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				770D39191FE9AB550045E279 /* VCListPopulation.h */,
+				770D391A1FE9AB550045E279 /* VCListPopulation.m */,
+				770D39291FE9E5230045E279 /* VCDetailPopulation.h */,
+				770D392A1FE9E5230045E279 /* VCDetailPopulation.m */,
+				77625DB620C561A400DD8F7B /* UITableViewController+ExtDetailPopulation.h */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		770D391C1FE9B1FE0045E279 /* CellPopulation */ = {
+			isa = PBXGroup;
+			children = (
+				770D391D1FE9B2290045E279 /* CellPopulation.h */,
+				770D391E1FE9B2290045E279 /* CellPopulation.m */,
+			);
+			path = CellPopulation;
+			sourceTree = "<group>";
+		};
+		770D39201FE9B7D80045E279 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				770D39221FE9C3F70045E279 /* Service.h */,
+				770D39231FE9C3F70045E279 /* Service.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		770D39211FE9B7E80045E279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				776F19461FEAABC0003F8729 /* Orcos.h */,
+				776F19471FEAABC0003F8729 /* Orcos.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		770D39251FE9D6CB0045E279 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				770D39261FE9D6F20045E279 /* ToolsImage.h */,
+				770D39271FE9D6F20045E279 /* ToolsImage.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770D39071FE9990A0045E279 /* ViewController.m in Sources */,
+				776F19481FEAABC0003F8729 /* Orcos.m in Sources */,
+				770D39241FE9C3F70045E279 /* Service.m in Sources */,
 				770D39121FE9990A0045E279 /* main.m in Sources */,
+				770D392B1FE9E5230045E279 /* VCDetailPopulation.m in Sources */,
 				770D39041FE9990A0045E279 /* AppDelegate.m in Sources */,
+				770D39281FE9D6F20045E279 /* ToolsImage.m in Sources */,
+				770D391F1FE9B2290045E279 /* CellPopulation.m in Sources */,
+				770D391B1FE9AB550045E279 /* VCListPopulation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
